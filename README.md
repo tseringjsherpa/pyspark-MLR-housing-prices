@@ -18,6 +18,27 @@ A machine learning project that predicts housing prices in Seattle using **Apach
 - **Location:** zipcode, latitude, longitude
 - **Age:** yr_built, yr_renovated
 
+## Project Structure
+
+```
+housing-price-prediction-pyspark/
+├── Seattle House Prices – PySpark ML.ipynb \
+├── Seattle House Prices – PySpark ML (1).html \
+├── Dashboard from Seattle House Prices PySpark ML.pdf \
+├── house-data.csv \
+├── requirements.txt \
+└── README.md
+```
+
+**Visualizations:**
+- **HTML Dashboard** - Interactive charts and visualizations. Download and open in your browser to explore.
+- **PDF Dashboard** - Static version of all visualizations. Can be viewed directly on GitHub.
+```
+** To View Interactive HTML:**
+1. Download `Seattle House Prices – PySpark ML (1).html`
+2. Open the file in your web browser
+3. Interact with charts and visualizations
+```
 ## Project Workflow
 
 1. **Data Loading** - Import CSV with defined schema
@@ -60,19 +81,6 @@ The model explains approximately 70% of price variance with minimal overfitting 
 - **Databricks** - Development environment
 - **Python 3.8+** - Programming language
 - **Matplotlib, Seaborn** - Data visualization
-```
-
-## Project Structure
-
-```
-housing-price-prediction/
-│
-├── notebook.ipynb              # Main analysis notebook
-├── data/
-│   └── house-data.csv         # Dataset
-├── requirements.txt           # Python dependencies
-└── README.md                  # Documentation
-```
 
 ## Limitations
 
@@ -87,6 +95,7 @@ housing-price-prediction/
 - Add time series analysis for price trends
 - Include additional features (school ratings, crime data, walkability)
 - Deploy model as REST API for real-time predictions
+- Create interactive Streamlit/Dash web application
 
 ## References
 
