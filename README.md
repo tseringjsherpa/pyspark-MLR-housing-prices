@@ -100,3 +100,6 @@ The model explains approximately 70% of price variance with minimal overfitting 
 ## References
 
 Gajda, G. (2020). *House Sales in King County, USA* [Data set]. GitHub. https://raw.githubusercontent.com/grzegorzgajda/spark-examples/master/spark-examples/data/house-data.csv
+
+## Author
+Tsering Jigme Sherpa
